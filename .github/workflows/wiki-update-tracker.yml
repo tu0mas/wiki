@@ -18,7 +18,7 @@ jobs:
 
     # Starts main action
     - name: Check original pages status and update issues
-      uses: Awagi/wiki-update-tracker@v0.1
+      uses: Awagi/wiki-update-tracker@master
       with:
         repo-path: $GITHUB_WORKSPACE
         original-path: "wiki"
