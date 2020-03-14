@@ -4,7 +4,7 @@ name: Wiki Update Tracker
 
 on:
   push:
-    branches: [ oldfrtranslation ]
+    branches: [ master, oldfrtranslation ]
 
 jobs:
   update:
