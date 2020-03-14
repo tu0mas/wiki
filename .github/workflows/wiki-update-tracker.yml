@@ -15,6 +15,7 @@ jobs:
       uses: actions/checkout@v2
       with:
         ref: oldfrtranslation
+        fetch-depth: 0
 
     # Starts main action
     - name: Check original pages status and update issues
