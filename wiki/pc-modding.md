@@ -4,6 +4,8 @@ sidebar: auto
 # PC Modding
 # Preface
 
+Something to commit
+
 ::: danger DISCLAIMER
 By choosing to use mods, you understand that:
 - You may experience problems that don't exist in the vanilla game. 99.9% of bugs, crashes, and lag are due to mods.
