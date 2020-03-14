@@ -27,5 +27,5 @@ jobs:
         file-suffix: ".md"
         bot-label: "WUT"
         token: ${{ secrets.GITHUB_TOKEN }}
-        log-level: "INFO"
+        log-level: "DEBUG"
 
