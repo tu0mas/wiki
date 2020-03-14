@@ -1,0 +1,31 @@
+# Wiki Update Tracker, to track changes in wiki original pages, and update issues to report when a translation is required
+
+name: Wiki Update Tracker
+
+on:
+  push:
+    branches: [ oldfrtranslation ]
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+  
+    steps:
+    - name: Checkout git repository
+      uses: actions/checkout@v2
+      with:
+        ref: oldfrtranslation
+
+    # Starts main action
+    - name: Check original pages status and update issues
+      uses: Awagi/wiki-update-tracker@master
+      with:
+        repo-path: $GITHUB_WORKSPACE
+        original-path: "wiki"
+        ignored-paths: "wiki/LICENSE,wiki/.vuepress"
+        translation-paths: "wiki/fr"
+        file-suffix: ".md"
+        bot-label: "WUT"
+        token: ${{ secrets.GITHUB_TOKEN }}
+        log-level: "INFO"
+
