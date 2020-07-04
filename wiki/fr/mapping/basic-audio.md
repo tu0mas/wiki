@@ -40,7 +40,7 @@ Avant d'attaquer votre mapping, assurez-vous de disposer d'un fichier audio de h
 
 Suivez ces conseils lorsque vous travaillez sur vos maps :
 * Utilisez la meilleure qualité audio que vous puissiez trouver, comme par exemple des fichiers **FLAC ou WAV(E)** (format sans perte).
-* Un bon substiut est un fichier **MP3 ou AAC** avec un débit audio élevé (+200 kbps).
+* Un bon substiut est un fichier **MP3 ou AAC** avec un débit audio élevé (+200 kbps) (formats à perte).
 * Utilisez un rip YouTube **uniquement** en dernier recours. Le débit audio est faible et le volume rarement correct. Dans ce cas, de l'édition audio peut être nécessaire (voir [Editing with Audacity](/mapping/basic-audio.html#editing-with-audacity)).
 
 > Les sites proposant la vente de chansons/albums comme le [Bandcamp](https://bandcamp.com/) d'un artiste vous propose souvent la plus haute qualité disponible. Si l'ariste n'a pas de profil Bandcamp, des alternatives existent comme Google Play Music, Amazon Music et iTunes.
