@@ -36,3 +36,21 @@ Lorsque vous êtes prêt à préparer votre chanson pour l'upload, vous devez av
 ::: warning
 Les caractères spéciaux comprises dans les langues telles que, le Japonais (日本語/にほんご), le Chinois (汉语/漢語), l'Arabe (اَلْعَرَبِيَّةُ‎), et les caractères accentués (Ä/é/ó) ne sont pas entièrement supportés par Beatsaver. Utiliser ces caractères dans les métadonnées ou les bookmark (traduire?) peut causer des problèmes.
 :::
+
+### Types de blocs
+
+| Blocs directionnels | Blocs point | Bombes | Murs |
+| :----: | :----: | :----: | :----: |
+| ![Directional Block](./images/arrow-block.png) | ![Dot Block](./images/dot-block.png) | ![Bomb](./images/bomb.png) | ![Wall](./images/wall.png) |
+| Doit être coupé dans le <br />sens de la flèche | Peut être coupé dans n'importe quel sens | Cause des dégats lorsque frappé <br />mais sûr pour les joueurs | Blesse les joueurs mais peut<br />être traversé par les sabres |
+
+**Au sujet des murs :**
+* Les murs standards peuvent être affichés par tous les casques VR de par leur compatibilité. New mappers should stick with these until they’re a bit more experienced.
+* Il existe plusieurs types de murs “hack” ne nécessitant pas le plugin Mapping Extensions : les "fast walls" (passent très rapidement), "hyper walls" (passent TRÈS rapidement), et les "fake walls" (ressemblent à des murs normaux mais ne causent aucun dégâts). 
+* Malgré le fait que ces types de murs soient supportés sur certains éditeurs, ils exploitent la mécanique du jeu de base et sont considérés unrankable.
+* Plus d'informations sur les murs sans Mapping Exntensions dans [Intermediate Mapping](/mapping/intermediate-mapping.md) et sur les autres types de murs dans [Extended Mapping](/mapping/extended-mapping.md)
+
+**Au sujet des bombes :**
+* Bomb hitboxes are smaller than block hitboxes, smaller even than the bomb model itself
+* Bombs are hard to see when there are no lighting events active. Make sure your map isn’t dark when bombs are coming up. See [Basic Lighting](/mapping/basic-lighting.html) for more tips.
+* Bombs can still be hit once they have passed the player.
