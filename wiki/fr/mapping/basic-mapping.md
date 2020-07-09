@@ -51,6 +51,21 @@ Les caractères spéciaux comprises dans les langues telles que, le Japonais (�
 * Plus d'informations sur les murs sans Mapping Exntensions dans [Intermediate Mapping](/mapping/intermediate-mapping.md) et sur les autres types de murs dans [Extended Mapping](/mapping/extended-mapping.md)
 
 **Au sujet des bombes :**
-* Bomb hitboxes are smaller than block hitboxes, smaller even than the bomb model itself
-* Bombs are hard to see when there are no lighting events active. Make sure your map isn’t dark when bombs are coming up. See [Basic Lighting](/mapping/basic-lighting.html) for more tips.
-* Bombs can still be hit once they have passed the player.
+* La hitbox des bombes sont plus petites que celles des blocs, même plus petites que les bombes en elles mêmes.
+* Les bombes sont difficiles à voir quand il n'y a pas de lumières actives. Assurez-vous que votre map ne soit pas dans la pénombre lorsque les bombes surgissent. Visitez [Basic Lighting](/mapping/basic-lighting.html) pour plus d'astuces à ce sujet.
+* Les bombes peuvent être frappées même lorsque qu'elles ont passé le joueur.
+
+### Block Distribution
+As a *very general* rule of thumb for new mappers, blocks should be distributed roughly as follows:
+
+* 60-80% on the bottom row
+* 10% or less on the top row
+* The rest on the middle row
+
+This is one of the more flexible guidelines for new mappers but it's still helpful to stay in this range for your first map or two before experimenting. Certain styles of maps (like dance maps) will have a higher percentage of blocks on the top row but always remember to consider your target audience and their comfort.
+
+::: tip 
+If you’re using [Mediocre Map Assistant 2](/mapping/mediocre-map-assistant.html) as your editor you can hit <kbd>SHIFT</kbd>+<kbd>TAB</kbd> to open the error checker then click the <kbd>Stat Panel</kbd> button to see this breakdown. 
+:::
+
+For more on row usage in different difficulties, see [Gauging Difficulty](/mapping/basic-mapping.html#gauging-difficulty-down-mapping).
