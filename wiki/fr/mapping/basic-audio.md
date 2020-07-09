@@ -52,3 +52,20 @@ En achetant et en utilisant un fichier audio de haute qualité, non seulement vo
 | 1 | ![YouTube Rip 1](./images/ytrip1.jpg) | ![MP3 1](./images/mp31.jpg) | ![WAV 1](./images/wav1.jpg) | ![Flac 1](./images/flac1.jpg) |
 | 5 | ![YouTube Rip 5](./images/ytrip5.jpg) | ![MP3 5](./images/mp35.jpg) | ![WAV 5](./images/wav5.jpg) | ![Flac 5](./images/flac5.jpg) |
 | 10 | ![YouTube Rip 10](./images/ytrip10.jpg) | ![MP3 10](./images/mp310.jpg) | ![WAV 10](./images/wav10.jpg) | ![Flac 10](./images/flac10.jpg) |
+
+## Trouver le BPM
+Il existe trois méthodes pour trouver le BPM de la chanson que vous souhaitez mapper. Essayez-les dans l'ordre (du plus facile au plus difficile) si vous n'obtenez aucun résultats :
+
+### Calcul du BPM par outil
+::: tip NOTE   
+Ceci est la méthode recommandée pour les chansons au BPM constant
+:::
+
+[Arrow Vortex](https://arrowvortex.ddrnl.com/) est un outil gratuit pour analyser le BPM d'une chanson automatiquement. Il va également trouver l'offset nécessaire pour aligner l'audio au rythme dans Audacity ou votre éditeur de map. 
+
+**Utiliser Arrow Vortex pour trouver le BPM et l'offset :**  
+Les étapes données ci-dessous sont les mêmes utilisées par le guide de Ryger. [Arrow Vortex BPM Analysis Video Tutorial](https://youtu.be/Z49UKFefu5c) (vidéo en anglais) (inclut également la confirmation du BPM). 
+1. Téléchargez Arrow Vortex (AV), extrayez le fichier, et ouvrez `ArrowVortex.exe`
+	- Discord [Téléchargement ZIP](https://cdn.discordapp.com/attachments/443569023951568906/662417326771273728/ArrowVortex.zip) (Méthode recommandée)
+	- Site officiel Arrow Vortex [Téléchargement RAR](https://arrowvortex.ddrnl.com/)
+		- You will need additional software such as [7zip](https://www.7-zip.org/) to extract `.rar` files such as this one.
